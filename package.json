@@ -1,0 +1,13 @@
+{
+  "name": "chazoku-subscription-bridge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit:recharge": "node scripts/audit-recharge.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
